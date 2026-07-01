@@ -4,7 +4,7 @@ RUN corepack enable && corepack prepare yarn@stable --activate
 
 WORKDIR /usr/src/app
 
-COPY package.json yarn.lock .yarnrc.yml ./
+COPY package.json yarn.lock ./
 
 RUN yarn install --immutable
 
