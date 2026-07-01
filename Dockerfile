@@ -1,6 +1,6 @@
 FROM node:20
 
-RUN corepack enable && corepack prepare yarn@stable --activate
+RUN corepack enable && corepack prepare yarn@1.22.22 --activate
 
 WORKDIR /usr/src/app
 
