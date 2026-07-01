@@ -10,4 +10,6 @@ RUN yarn install --immutable
 
 COPY . .
 
+EXPOSE 3000
+
 CMD ["yarn", "start"]
